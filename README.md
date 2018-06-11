@@ -1,4 +1,4 @@
-React Neighborhood Project
+# React Neighborhood Project
 
 This is a react project and it is part of Udacity Frontend Nanodegree course. It showcases dealing with different APIs. I used google maps and wunderground for this project. 
 
@@ -6,6 +6,6 @@ It shows 5 different dance venues in singapore, which is for different dancestyl
 
 To use this website,
 
-First clone the project
-Then npm install dependencies
-and nmp start to start it.
+- First clone the project  
+- Then npm install dependencies  
+- and nmp start to start it  
