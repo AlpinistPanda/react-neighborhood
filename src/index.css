@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.search {
+  z-index: 1;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+
+.search-field {
+  width: 300px;
+  padding: 5px;
+}
+
+.search-area {
+  font-size: 1.1em;
+  float: right;
+}
+
+.venue-list {
+  padding: 0;
+  margin: 5px;
+  overflow: auto;
+}
+
+
+
+.venue {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: black;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.place:hover {
+  color: black;
+  background-color: white;
+}
+
+.location-item {
+  padding: 10px;
+  margin: 0;
+  background-color: #fff;
+  list-style-type: none;
+  text-align: center;
+  border: solid green 1px;
+}
+
+.location-item:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.search-input {
+  padding: 5px 10px;
+  font-size: 1.3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+
+.search-area {
+  border-radius: 5px;
+  position: absolute;
+  max-height: 50%;
+  overflow: auto;
+  left: 0.5%;
+  top: 6%;
+  z-index: 2;
+  background-color: #855de4;
+  opacity: 0.9;
+}
+
+
+.box {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.box:hover {
+  background-color: #269abc;
+  color: white;
+}
+
+.button {
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+  border: 1px darkgrey solid;
+  cursor: pointer;
+  width: 334px;
+}
+.info {
+  width: 400px;
+}
+.info-header{
+  display: flex;
+}
+
+.firstHeading a{
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 1.5em;
+  
+}
+
+.info-name {
+  margin: auto;
+}
+
+.weather-row{
+  display: flex;
+}
+
+.content p {
+  text-align: center;
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.content-row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.weather-text p {
+  margin:0;
+  margin-left: 20px;
+}
